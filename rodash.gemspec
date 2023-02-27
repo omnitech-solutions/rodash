@@ -22,7 +22,18 @@ Gem::Specification.new do |gem|
   gem.metadata["source_code_uri"] = gem.homepage
   gem.metadata["changelog_uri"] = "#{gem.homepage}/CHANGELOG.md"
 
+  gem.add_runtime_dependency 'stackprof', '>= 0.2'
+  gem.add_runtime_dependency 'colorize', '~> 0.8.1'
+  gem.add_runtime_dependency 'mime-types', '>= 3'
   gem.add_runtime_dependency 'activesupport', '>= 5'
+  gem.add_runtime_dependency 'activestorage', '>= 5'
+  gem.add_runtime_dependency 'rack', '>= 2'
+  gem.add_runtime_dependency 'faker', '>= 2'
+  gem.add_runtime_dependency 'oj', '>= 3'
+  gem.add_runtime_dependency 'rudash', '>= 4'
+  gem.add_runtime_dependency 'dottie', '>= 0.0.2'
+  gem.add_runtime_dependency 'addressable', '>= 2.6.0'
+  gem.add_runtime_dependency 'measured', '>= 2.5'
 
   gem.add_development_dependency("rake", "~> 13.0.6")
   gem.add_development_dependency("rspec", "~> 3.12.0")

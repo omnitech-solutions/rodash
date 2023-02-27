@@ -1,6 +1,17 @@
 # frozen_string_literal: true
 
-require "rodash"
+require File.join(__dir__, "..", 'dev', 'setup')
+require Pathname.new(__dir__).realpath.join('coverage_helper').to_s
+
+unless defined? Rails
+  module Rails
+    class << self
+      def root
+        Pathname.new(__dir__).join('..')
+      end
+    end
+  end
+end
 
 RSpec.configure do |config|
   # Enable flags like --only-failures and --next-failure
