@@ -51,7 +51,7 @@ module Rordash
       end
 
       def open_fixture_file(filename)
-        pathname = Utils::FileUtil.fixture_file_path(filename)
+        pathname = fixture_file_path(filename)
         return nil unless pathname.exist?
 
         ::File.open(pathname.to_s)
