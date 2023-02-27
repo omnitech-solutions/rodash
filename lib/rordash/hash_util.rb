@@ -127,7 +127,7 @@ module Rordash
         result = {}
 
         dot(attrs, keep_arrays: true) do |k, v|
-          value = each_value_proc.respond_to?(:call) ? each_value_proc&.call(k, v) : v.compact
+          value = each_value_proc.respond_to?(:call) ? each_value_proc&.call(k, v) : v.try(:compact)
           next if value.nil?
 
           set(result, k, value)

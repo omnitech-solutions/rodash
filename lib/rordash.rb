@@ -10,9 +10,15 @@ file_util
 url_util
 object_util
 numeric_util
+chain
 ].each do |filename|
   require File.expand_path("../rordash/#{filename}", Pathname.new(__FILE__).realpath)
 end
 
 module Rordash
-  ; end
+  class << self
+    def chain(value)
+      Chain.new(value.dup)
+    end
+  end
+end
