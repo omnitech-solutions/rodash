@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   module NumericUtil
     class << self
       module Unit

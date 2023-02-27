@@ -11,7 +11,8 @@ url_util
 object_util
 numeric_util
 ].each do |filename|
-  require File.expand_path("../rodash/#{filename}", Pathname.new(__FILE__).realpath)
+  require File.expand_path("../rordash/#{filename}", Pathname.new(__FILE__).realpath)
 end
 
-module Rodash; end
+module Rordash
+  ; end

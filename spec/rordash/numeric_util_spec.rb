@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   RSpec.describe NumericUtil do
     describe '.numeric?' do
       let(:value) { '12345' }

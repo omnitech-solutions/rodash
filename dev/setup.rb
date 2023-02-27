@@ -21,6 +21,6 @@ require 'addressable'
 require 'rack/utils'
 require 'measured'
 
-%w[../../lib/rodash ../../spec/spec_helper].each do |rel_path|
+%w[../../lib/rordash ../../spec/spec_helper].each do |rel_path|
   require File.expand_path(rel_path, Pathname.new(__FILE__).realpath)
 end

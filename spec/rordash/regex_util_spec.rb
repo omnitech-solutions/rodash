@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   RSpec.describe RegexUtil do
     describe '.match?' do
       subject(:matched) { described_class.match?(type, value) }

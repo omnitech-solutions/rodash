@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   module RegexUtil
     EMAIL_MATCH = URI::MailTo::EMAIL_REGEXP
     POSTAL_CODE_MATCH = /[A-Za-z]\d[A-Za-z][ -]?\d[A-Za-z]\d/.freeze

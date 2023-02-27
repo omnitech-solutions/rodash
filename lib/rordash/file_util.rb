@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   module FileUtil
     FILE_EXTENSION_MATCH = /^.*\.\S+\w$/.freeze
     CONTENT_TYPE_TO_EXT_MATCH = %r{/(.*)$}.freeze

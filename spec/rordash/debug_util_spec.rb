@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   # rubocop:disable  RSpec/MessageSpies
   RSpec.describe DebugUtil do
     describe '.calculate_duration' do

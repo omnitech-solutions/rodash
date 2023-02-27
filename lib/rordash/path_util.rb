@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   module PathUtil
     class << self
       def fixtures_path(path = '')

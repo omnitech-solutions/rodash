@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
-RSpec.describe Rodash do
+RSpec.describe Rordash do
   it "has a version number" do
-    expect(Rodash::VERSION).not_to be_nil
+    expect(Rordash::VERSION).not_to be_nil
   end
 end

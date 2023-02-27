@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   RSpec.describe FileUtil do
     let(:filename) { 'sample.csv' }
     let(:rel_path) { "files/#{filename}" }

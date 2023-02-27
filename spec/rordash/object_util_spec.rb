@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   RSpec.describe ObjectUtil do
     describe '.to_classname' do
       context 'when given a class object that is not defined' do

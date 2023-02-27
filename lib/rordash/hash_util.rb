@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   # rubocop:disable Metrics/ModuleLength
   module HashUtil
     ROOT_PATHS = %w[. *].freeze

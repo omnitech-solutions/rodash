@@ -1,21 +1,21 @@
 # frozen_string_literal: true
 
-require File.expand_path('../lib/rodash/version', __FILE__)
+require File.expand_path('../lib/rordash/version', __FILE__)
 
 Gem::Specification.new do |gem|
   gem.authors = ["Desmond O'Leary"]
   gem.email = ["desoleary@gmail.com"]
   gem.description = %q{Lodash inspired utilities}
   gem.summary = %q{Lodash inspired utilities}
-  gem.homepage = "https://github.com/omnitech-solutions/rodash"
+  gem.homepage = "https://github.com/omnitech-solutions/rordash"
   gem.license = "MIT"
 
   gem.files = `git ls-files`.split($\)
   gem.executables   = gem.files.grep(%r{^exe/}).map{ |f| File.basename(f) }
   gem.test_files    = gem.files.grep(%r{^(spec|features)/})
-  gem.name = "light-service-ext"
+  gem.name = "rordash"
   gem.require_paths = ["lib"]
-  gem.version = Rodash::VERSION
+  gem.version = Rordash::VERSION
   gem.required_ruby_version = ">= 2.6.0"
 
   gem.metadata["homepage_uri"] = gem.homepage

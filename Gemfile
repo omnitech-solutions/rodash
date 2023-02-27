@@ -2,7 +2,7 @@
 
 source "https://rubygems.org"
 
-# Specify your gem's dependencies in rodash.gemspec
+# Specify your gem's dependencies in rordash.gemspec
 gemspec
 
 gem "rubocop", "~> 1.44.1"

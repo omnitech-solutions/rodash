@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-module Rodash
+module Rordash
   RSpec.describe UrlUtil do
     let(:url) { "http://html.joe.com/Jobs/123/249 Subert Place Feb29'27.pdf" }
 

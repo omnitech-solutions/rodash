@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 # rubocop:disable Metrics/ModuleLength
-module Rodash
+module Rordash
   RSpec.describe HashUtil do
     let(:hash) { { data: { nestedKey: { id: "some-identifier", items: [4, 9, 7] } } } }
 
